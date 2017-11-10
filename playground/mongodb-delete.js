@@ -12,9 +12,9 @@ MongoClient.connect('mongodb://localhost:27017/TodoApp', (err, db) => {
   // db.collection('Todos').deleteMany({ text: 'Eat lunch' }).then((result) => {
   //   console.log(result);
   // });
-  db.collection('Users').deleteMany({ name: 'Zach' }).then((result) => {
-    console.log(result);
-  });
+  // db.collection('Users').deleteMany({ name: 'Zach' }).then((result) => {
+  //   console.log(result);
+  // });
 
   // deleteOne
   // db.collection('Todos').deleteOne({ text: 'Eat lunch' }).then((result) => {
